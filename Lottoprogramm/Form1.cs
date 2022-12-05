@@ -19,6 +19,11 @@ namespace Lottoprogramm
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int[] zahlen = new int[6];
+            Random r =new Random();
+            for(int i = 0; i < 6; i++)
+            { zahlen[i] = r; }
+
 
         }
     }
